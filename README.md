@@ -25,9 +25,9 @@ I installed 3 of them (except Intel 5300) and couldn't reach the result except i
 # ESP32 CSI Toolkit
 The details of the implementation of this toolkit are available at this link. I did the following steps one-by-one and reach the CSI data:
 
-1. Download and Install ESP: You can download the ESP zip file using this link. After downloading this file, I created a folder in C: drive, named esp, and another folder inside that named esp. then extract the zip file in this folder: C:\esp\esp
+1. Download and Install ESP: You can download the ESP zip file using this link (https://docs.espressif.com/projects/esp-idf/en/v3.3.1/get-started/windows-setup.html). After downloading that, I created a folder in C: drive, named esp, and another folder inside that named esp. then extract the zip file in this folder: C:\esp\esp
 
-2. Install ESP-IDF v3.3.1: After installing ESP, you need to install ESP-IDF. For using this toolkit you need v3.3.1 of ESP-IDF. Detail instructions of this step are available at this link. You only need to open a cmd on windows and enter the following lines to clone the esp-idf from its git repository: cd ~/esp then git clone -b v3.3.1 --recursive https://github.com/espressif/esp-idf.git
+2. Install ESP-IDF v3.3.1: After installing ESP, you need to install ESP-IDF. For using this toolkit you need v3.3.1 of ESP-IDF. Detail instructions of this step are available at this link (https://docs.espressif.com/projects/esp-idf/en/v3.3.1/get-started/index.html). You only need to open a cmd on windows and enter the following lines to clone the esp-idf from its git repository: cd ~/esp then git clone -b v3.3.1 --recursive https://github.com/espressif/esp-idf.git
 
 3. Download ESP32 CSI Toolkit: Now, we should download the toolkit from this link. We need to extract this zip file into a folder. There is a tricky step here. You should not extract this file into a folder under C:\esp\esp. It can cause some errors in the next step. So, I extracted this zip file into the example folder of esp-idf in this path: C:\esp\esp-idf\examples.
 
